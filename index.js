@@ -4,6 +4,10 @@ import {AmplifyProvider} from "@aws-amplify/ui-react";
 import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
 
+import { 
+    ActionCard 
+  } from './ui-components';
+
 <AmplifyProvider>
     <App/>
 </AmplifyProvider>
